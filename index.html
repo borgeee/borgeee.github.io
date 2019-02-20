@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125019156-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125019156-1');
+</script>
+
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Designer &amp; Developer</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+<body class="w3-black w3-content" style="max-width:2500px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-amber w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-opacity" title="close menu">
+        <i class="fas fa-angle-double-left"></i>
+    </a>
+    <img src="img/borgee.jpg" style="width:90%;" class="w3-circle"><br><br>
+    <h1><strong>Arjay B. Grecia</strong></h1>
+    <p><i class="fa fa-briefcase fa-fw w3-margin-right"></i>Graphic &amp; Web Designer</p>
+    <p><i class="fa fa-envelope fa-fw w3-margin-right"></i>rjdzgn@gmail.com</p>
+    <p><a href="https://www.abg.website/careerbackground/" target="_blank"><i class="far fa-eye w3-margin-right"></i>Career Background</a></p>
+    <!--<p><i class="fa fa-home fa-fw w3-margin-right"></i>Philippines</p>-->
+  </div>
+
+    <div class="w3-bar-block">
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-black">MY STORY</a>
+        <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-black">WHAT I DO</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-black">GET IN TOUCH</a>
+    </div>
+
+      <!--Social Media-->
+    <p align="center">
+        <a href="https://www.behance.net/borgee" target="_blank"><i class="w3-margin-right w3-large fab fa-behance w3-hover-opacity" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/arjaygrecia/" target="_blank"><i class="w3-margin-right w3-large fab fa-linkedin-in w3-hover-opacity" aria-hidden="true"></i></a>
+        <a href="https://github.com/borgeee" target="_blank"><i class="w3-margin-right  w3-large fab fa-github-alt w3-hover-opacity"  aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/borgeeee/" target="_blank"><i class="w3-margin-right w3-large fab fa-instagram w3-hover-opacity" aria-hidden="true"></i></a>
+        <a href="https://drive.google.com/file/d/1wBIRw8oaiQQR-08685tn7qUDproyR98O/view" target="_blank" title="Download CV"><i class="w3-large fas fa-file-pdf w3-hover-opacity" aria-hidden="true"></i></a>
+    </p>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+
+
+
+    
+  <!-- Header -->
+  <header id="portfolio">
+    <!--Small Screen-->
+    <a href="#"><img src="img/borgee.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity w3"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-amber w3-text-amber" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    
+    <div class="w3-container">   
+            <h1 class="w3-xxxlarge w3-text-cyan"><b>Field of </b>
+            <span class="w3-jumbo w3-text-amber"><b>Work:</b></span></h1>
+            <hr style="width:50px;border:5px solid" class="w3-round w3-text-cyan">
+            
+            <!--Filter Control-->
+            <div id="filter">
+                <span class="w3-margin w3-text-white">Filter:</span>
+                <button class="f-all w3-button w3-amber">ALL</button>
+                <button class="f-group-1 w3-button w3-amber">Identity &amp; Branding</button>
+                <button class="f-group-2 w3-button w3-amber">Web Development</button>
+                <button class="f-group-3 w3-button w3-amber">Book Cover Design</button>
+            </div>
+    </div>
+  </header>
+  
+  <!--Field of Work Group-->
+
+  <section class="group-2">
+    <h2 class="w3-text-cyan">Web Development</h2>
+    
+    <div class="w3-row-padding w3-margin-top">
+    
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://www.abg.website/project/lms/" target="_blank">
+            <img src="img/learningfromteaching.jpg" alt="Learning From Teaching" class="w3-hover-opacity" style="width:100%">
+          </a>
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://borgeee.github.io/parallaxwebsite/" target="_blank">
+            <img src="img/parallax.jpg" alt="Parallax Website" class="w3-hover-opacity" style="width:100%">
+          </a>
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://abg.website/project/pohaku/" target="_blank">
+            <img src="img/pohaku.jpg" alt="eCommerce Website" class="w3-hover-opacity" style="width:100%">
+          </a>
+        </div>
+      </div>
+        
+    </div>
+    
+    
+
+    <div class="w3-row-padding w3-margin-top">
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://borgeee.github.io/augusttheme/" target="_blank">
+            <img src="img/augusttheme.jpg" alt="August Theme" class="w3-hover-opacity" style="width:100%">
+          </a>
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://borgeee.github.io/ReponsiveWebsite/" target="_blank">
+            <img src="img/responsive.jpg" alt="Reponsive Website" class="w3-hover-opacity" style="width:100%">
+          </a>
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://borgeee.github.io/motorbike/" target="_blank">
+            <img src="img/motorbike.jpg" alt="Motorbike" class="w3-hover-opacity" style="width:100%">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="group-1">
+    <div class="w3-row-padding w3-margin-top">
+
+    <h2 class="w3-text-cyan">Identity &amp; Branding</h2>
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://www.behance.net/gallery/69371001/Tranceflux-Photography" target="_blank">
+            <img src="img/tranceflux.jpg" alt="Tanceflux" style="width:100%" class="w3-hover-opacity">
+          </a>
+        </div>
+      </div>
+  
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://www.behance.net/gallery/69002113/Panoply-Consultancy-Identity" target="_blank">
+            <img src="img/panoply-brochure.jpg" alt="Panoply" style="width:100%" class="w3-hover-opacity"></a>
+        </div>
+      </div>
+  
+      <div class="w3-third">
+        <div class="w3-card">
+          <a href="https://www.behance.net/gallery/69426235/Latex-Glove-Packaging-Box" target="_blank">
+            <img src="img/packaging.jpg" alt="Learning From Teaching" style="width:100%" class="w3-hover-opacity">
+          </a>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+  
+  
+  
+  <section class="group-3">
+    <h2 class="w3-text-cyan">Book Cover Design</h2>
+    <p class="w3-text-gray">Credited by Authors</p>
+  
+      <div class="w3-row-padding w3-margin-top">
+    
+        <div class="w3-third">
+          <div class="w3-card">
+            <a href="https://goo.gl/noiGGp" target="_blank">
+              <img src="img/book1.jpg" alt="Shem's Quest" style="width:100%" class="w3-hover-opacity">
+            </a>
+          </div>
+        </div>
+  
+        <div class="w3-third">
+          <div class="w3-card">
+           <a href="https://goo.gl/EGiyhZ" target="_blank">
+              <img src="img/book3.jpg" alt="Demon Slayer Knight" style="width:100%" class="w3-hover-opacity">
+            </a>  
+          </div>
+        </div>
+  
+        <div class="w3-third">
+          <div class="w3-card">
+            <a href="https://goo.gl/WJ7Zw1" target="_blank">
+              <img src="img/book4.jpg" alt="Flashes in the Fog" style="width:100%" class="w3-hover-opacity">
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <a href="https://goo.gl/BuhHBZ" target="_blank">
+              <img src="img/book6.jpg" alt="Stumptown Secrets" style="width:100%" class="w3-hover-opacity">
+            </a>
+          </div>
+        </div>
+  
+        <div class="w3-third">
+          <div class="w3-card">
+           <a href="https://goo.gl/qNGwKt" target="_blank">
+              <img src="img/book5.jpg" alt="ZingZang" style="width:100%" class="w3-hover-opacity">
+            </a>
+          </div>
+        </div>
+  
+        <div class="w3-third">
+          <div class="w3-card">
+            <a href="https://goo.gl/KGbbaQ" target="_blank">
+              <img src="img/book2.jpg" alt="Prediction" style="width:100%" class="w3-hover-opacity">
+            </a>
+          </div>
+        </div>
+        
+      </div>
+  
+  </section>
+
+  <!-- Images of Me -->
+  <div class="w3-container" id="about">
+    <h1 class="w3-xxxlarge w3-text-cyan"><b>Hi! Nice to meet you,</b>
+        <span class="w3-jumbo w3-text-amber"><b>I'm Borgee!</b></span></h1>
+    <hr style="width:50px;border:5px solid" class="w3-round w3-text-cyan">
+    <div class="myphoto">
+        <img src="img/borgeee.jpg"/>
+    </div>
+    <p class="w3-xlarge w3-text-grey">A designer following and working in the fields of Digital and Print Media.</p>
+
+    <p class="w3-xlarge w3-text-grey">He continuously likes learning, experiencing and making things done and welcomes challenges.</p>
+
+    <p class="w3-xlarge w3-text-gray">He just finished his contract working in a company abroad as a Graphic &amp; Web Designer. He is responsible for handling company domain & web hosting accounts and website. Also, help to design company identity and marketing materials needed by the sales team. Included in his accomplishment is to evaluate and deploy a web-based intranet, logistics management system, and an archiving application for maintenance report.</p>
+
+
+    <p class="w3-xlarge w3-text-grey">Previously, he worked in a Web Solution Company as a Graphic Designer &amp; a Webmaster. After a couple of years, he decided to go back to his hometown to establish his own <a href="http://theinkpossible.tumblr.com/" class="w3-text-cyan" target="_blank">Printing Business</a>. He had a challenging experience during this time while doing freelance work, which led to giving up the printing shop.</p>
+
+    <p class="w3-xlarge w3-text-grey">In order to develop his designing skill, he worked in a Publishing Company as a book cover designer and later on, having an experience in web designing, he was promoted and led a group of web designers for the same company.</p>
+  
+    
+  <!-- Contact Section -->
+  <h1 class="w3-xxxlarge w3-text-cyan" id="contact"><b>Say </b>
+    <span class="w3-jumbo w3-text-amber"><b>Hello:</b></span></h1>
+  <div class="w3-container w3-padding-large w3-light-grey">
+    <h4> For project collaboration send me an email, or let's get a coffee, or an ice cream, maybe? <i class="far fa-grin-beam-sweat w3-margin-right"></i></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-cyan">
+        <p><i class="fas fa-envelope  w3-xxlarge"></i></p>
+        <p>rjdzgn@gmail.com</p>
+      </div>
+      <div class="w3-third w3-amber">
+        <p><i class="fas fa-map-marker-alt w3-xxlarge"></i></p>
+        <p>Cebu City, Philippines</p>
+      </div>
+      <div class="w3-third w3-cyan">
+        <p><i class="fas fa-phone w3-xxlarge"></i></p>
+        <p>PH: (+63) 908 167 1677</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-black">
+        <div class="w3-center w3-padding-16"><p><a href="https://www.abg.website/">ABG Graphic &amp; Web Design</a> | &copy; 2018</p></div>
+  </footer>
+<!-- End page content -->
+</div>
+
+    <!--Dynamic List Filter: Field of Work-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Add Menu Scrolling Animation-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
