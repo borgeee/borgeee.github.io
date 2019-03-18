@@ -1,0 +1,108 @@
+body { 
+    font-size:16px; background: white;
+}
+
+body, h3, h4, p, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 2em;
+}
+
+h1,h2,h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+
+.w3-half img:hover{opacity:1}
+
+a {
+	text-decoration: none;
+}
+
+p{
+    padding:  0;
+    margin: 0;
+}
+
+.abg-blue {
+    background-color: #22283f;
+}
+
+.abg-blue-text {
+    color: #22283f;
+}
+
+#showcase, #services, #designers {
+    height: 100vh;
+}
+
+
+/*Image Size*/
+.webimg {
+	width: 80%;
+}
+.bookimg {
+	height: 630px;
+}
+
+.myphoto {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+/*Filter Button*/
+.group-1, .group-2, .group-3 {
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+
+.socialmedia{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Screen Sizes 500px and up*/
+@media (max-width: 500px){
+    #filter {
+        display: none;
+    }
+    .myphoto {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .w3-card{
+        margin-bottom: 10px;
+    }
+    .abg-margin-sh{
+        margin-top: 50px;
+    }
+}
+
+/*Screen Sizes 700px and up*/
+@media (max-width: 700px){
+    #filter {
+        display: none;
+    }
+    .myphoto {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .w3-card{
+        margin-bottom: 10px;
+    }
+    .abg-margin-sh{
+        margin-top: 50px;
+    }
+}
