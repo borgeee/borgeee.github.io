@@ -1,2 +1,2 @@
-# my personal portfolio
-# view site http://borgeee.github.io/
+# My Portfolio
+# Vsiit https://borgeee.github.io/
