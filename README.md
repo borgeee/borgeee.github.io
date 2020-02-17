@@ -1,2 +1,2 @@
-<a href="https://borgeee.github.io/">About Me</a>
+<a href="https://borgeee.github.io/">Click for my Bio</a>
 
