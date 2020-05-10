@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
 </head>
 <body>
 
@@ -51,11 +53,58 @@
   <div class="w3-container abg-margin-sh" id="showcase">
     <h1 class="w3-xxxlarge abg-c2"><b>Work.</b></h1>
     <hr style="width:50px;border:3px solid black" class="w3-round">
-
     <h2 class="w3-xxlarge">I specialise in WordPress platform to build an online learning management system and help businesses with everything in web design and development.</h2>
+   
   <!--Knowledge Summary-->
-  <div class="w3-padding-16">
-    <h1 class="w3-xxxlarge abg-blue-text"><b>Knowledge &amp; Experience.</b></h1>
+<div class="w3-container">
+  <div class="w3-half">
+  <hr>
+  <div class="toggle-title" title="Read More"><h4>01 | HTML - CSS - JQuery</h4></div>
+  <div class="toggle-details">
+      <p>Responsive Web Design, HTML5, CSS3, Bootstrap, Flexbox, w3.css, Materialize Framework, Javascript/jQuery</p>
+  </div>
+<hr>
+<div class="toggle-title" title="Read More"><h4>02 | WordPress Developer</h4></div>
+  <div class="toggle-details">
+    <p>As a WordPress developer, part of my workflow after conceptualising ui/ux design and frontend implementation, I use the native platform of WordPress template files and extras like plugins, custom fields, and widgets to further customise the website fuctionalities.</p>
+    <p>Below are the themes and plugins which I frequently use, to name a few.</p>
+    <ul>
+        <li>Learndash Learning Management System</li>
+        <li>Elementor, Thrive Architect, Divi, WP Bakery builders</li>
+        <li>Astra Theme, Generatepress, Genesis, Ignition Theme, Buddyboss</li>
+        <li>Yoast, Smush, WP Rocket, Comet Cache</li>
+      </ul>
+      <p>Part of my responsibility as a developer is to manage domain & hosting account, WHM and/or cPanel, maintain plugin & theme updates and resolving platform-related issues.</p>
+  </div>
+<hr>
+<div class="toggle-title"><h4>03 | Graphic Design</h4></div>
+  <div class="toggle-details">
+      <ul>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe InDesign</li>
+      </ul>
+      <p>You can also check <a href="https://www.behance.net/borgee" target="_blank">my behance page</a> for some of my design samples.</p>
+  </div>
+<hr>
+<div class="toggle-title"><h4>04 | Productivity Tools</h4></div>
+  <div class="toggle-details">
+      <ul>
+        <li>XAMPP, ServerPress, Visual Studio Code, Sublime</li>
+        <li>Clickfunnels, Squarespace</li>
+        <li>Podio, Trello, Teamwork, Monday</li>
+        <li>Zoom, Skype, Slack</li>
+        <li>Google Suite, Microsoft Office</li>
+        <li>Dropbox, Google Drive, OneDrive</li>
+        <li>Lastpass</li>
+        <li>MacOs, Windows10</li>
+      </ul>
+  </div>
+<hr>
+</div>
+</div>
+  <!--<div class="w3-padding-16">
+    <h1 class="w3-xxxlarge abg-c2"><b>Knowledge &amp; Experience.</b></h1>
     <hr style="width:50px;border:3px solid black" class="w3-round">
     <ul>
       <li>Specialize in WordPress, Learndash LMS, Memberium</li>
@@ -68,12 +117,11 @@
       <li>Experience in Shopify setup and management</li>
       <li>Branding and Identity design</li>
     </ul>
-  </div>
+  </div>-->
 
   <div class="w3-padding-16">
     <h1 class="w3-xxxlarge abg-c2"><b>Projects.</b></h1>
     <hr style="width:50px;border:3px solid black" class="w3-round">
-
     <div class="w3-row-padding">
       <div class="w3-half">
         <p><span class="w3-text-brown">Shopify Sales Page</span> (<a class="w3-small" target="_blank" href="https://borgeee.github.io/colon-presell/">demo</a> | <a class="w3-small" target="_blank" href="https://healthyselfstore.com/collections/no-1-thing-you-can-do-for-your-health">live</a>)</p>
@@ -150,5 +198,12 @@
   </div>
 </div>
 
+
+<script>
+	$(".toggle-title").click(function () {
+		$(this).next(".toggle-details").toggle("fold");
+});
+  
+  </script>
 </body>
 </html>
