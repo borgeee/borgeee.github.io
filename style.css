@@ -33,7 +33,7 @@ hr {
     display:none;
 }
 
-.toggle-details ul{
+.toggle-details ul, .tools ul{
     list-style-position: inside;
     margin-left: 15px;
 }
