@@ -152,6 +152,9 @@ p{
     .abg-margin-sh{
         margin-top: 50px;
     }
+    .toggle-title h4:after{
+        width: 25%;
+    }
 }
 
 /*Screen Sizes 700px and up*/
