@@ -6,11 +6,6 @@
     --text-color: #333;
     --hover-color: #1eb8ac;
   }
-
-ul, li {
-    padding: 0px;
-    margin: 0px;
-}
 .toggle-title{
     cursor:context-menu;
     color: #333;
