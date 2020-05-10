@@ -1,27 +1,82 @@
+/*Theme Color Customizer*/
+:root {
+    --primary-color: #80b500;
+    --primary-font: 'Jost', sans-serif;
+    --secondary-color: #3f2803;
+    --text-color: #333;
+    --hover-color: #1eb8ac;
+  }
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+.toggle-title{
+    cursor:context-menu;
+    color: #333;
+}
+hr {
+    padding: 0px;
+    margin: 12px 0px;
+}
+.toggle-title h4:after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f0d7";
+    position: absolute;
+    width: 42%;
+    right: 0;
+}
+
+.toggle-details {
+    display:none;
+}
+
+.toggle-details ul{
+    list-style-position: inside;
+    margin-left: 15px;
+}
+
+.center{
+    text-align: center;
+}
+
 body { 
     font-size:16px; background: white;
 }
 
-body, h3, h4, p, a{
-    font-family: 'Montserrat', sans-serif;
+body, h1, h2, h3, h4, h5, p, a{
+    font-family: var(--primary-font);
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2,h3 {
+    font-weight: 400;
 }
 
 p{
     line-height: 2em;
 }
 
-h1,h2,h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 
 .w3-half img:hover{opacity:1}
 
+.about h3{
+    padding: 32px 32px 0px 0px;
+}
+.about a{
+    margin-right: 25px;
+}
+
+.abg-text-white {
+    color: #fff;
+}
+
 a {
 	text-decoration: none;
-	color: #80b500;
+    color:var(--primary-color);
 }
 
 p{
@@ -29,22 +84,25 @@ p{
     margin: 0;
 }
 
-.abg-blue {
-    background-color: #80b500;
+.abg-c1 {
+    background-color:var(--primary-color);
 }
 
 .abg-green-text {
     color: #80b500;
 }
 
-.abg-blue-text {
-    color: #3f2803;
+.abg-c2 {
+    color:var(--secondary-color);
 }
 
 #showcase, #services, #designers {
     height: 100vh;
 }
 
+#showcase h1{
+    margin-top: 35px;
+}
 
 /*Image Size*/
 .webimg {
