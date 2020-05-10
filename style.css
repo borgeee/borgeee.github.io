@@ -6,6 +6,11 @@
     --text-color: #333;
     --hover-color: #1eb8ac;
   }
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+}
 .toggle-title{
     cursor:context-menu;
     color: #333;
@@ -15,11 +20,13 @@ hr {
     margin: 12px 0px;
 }
 .toggle-title h4:after{
-    font-family: "Font Awesome 5 Free";
-    content: "\f0d7";
+    font-family: var(--primary-font);
+    content: "read more";
+    font-size: 13px;
     position: absolute;
-    width: 42%;
+    width: 45%;
     right: 0;
+    padding-top: 6px;
 }
 
 .toggle-details {
