@@ -10,12 +10,12 @@
 .abg-mobile-contact{
 	border: 1px solid #fff;
 	padding: 0px 10px;
-	margin-left: 130px;
 	display: inline;
 }
 
 .abg-mobile-contact a{
 	color: #fff;
+	margin-left: 130px;
 }
 
 ul, li {
