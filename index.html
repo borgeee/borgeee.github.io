@@ -5,19 +5,23 @@
   <meta charset="UTF-8">
   <meta name="p:domain_verify" content="e83a40ab1e34d2d60685739f7ff44a1b"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="img/borgee.png" type="image/jpg" sizes="16x16"> 
+  <link rel="icon" href="img/borgee.png" type="image/jpg" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  
 
 </head>
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar abg-c1 w3-text-white w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
+<nav class="w3-sidebar abg-c1 portfolio-sidebar w3-text-white w3-collapse w3-top w3-large w3-padding" style="" id="mySidebar">
   <br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
 
@@ -38,16 +42,16 @@
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large abg-c1 w3-text-white w3-xlarge w3-padding abg-mobile-contact">
-	<span>Arjay Grecia</span><a href="mailto:abgwebdzgn@gmail.com">let's talk</a>
+<header class="w3-container w3-top w3-hide-large abg-c1 w3-text-white w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="abg-blue w3-margin-right" onclick="w3_open()"></a>
+  <span>Arjay Grecia</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
-
+<div class="w3-main portfolio-content">
   <!-- Header -->
   <div class="w3-container abg-margin-sh" id="showcase">
     <h1 class="w3-xxxlarge abg-c2"><b>Work.</b></h1>
@@ -56,20 +60,20 @@
    
   <!--Knowledge Summary-->
 <div class="w3-container">
-  <div class="w3-half">
+  <div class="w3-half knowledge-summary">
   <hr>
-  <div class="toggle-title"><h4>01 | HTML - CSS - JQuery</h4></div>
+  <div class="toggle-title" title="Read More"><h4>01 | HTML - CSS - JQuery</h4></div>
   <div class="toggle-details">
     <ul>
       <li>Responsive Web Design</li>
-      <li>HTML5, CSS3, JQuery Integration</li>
+      <li>HTML5, CSS3, jQuery</li>
       <li>Bootstrap, Flexbox, Materialize Framework</li>
     </ul>
   </div>
 <hr>
-<div class="toggle-title"><h4>02 | WordPress Developer</h4></div>
+<div class="toggle-title" title="Read More"><h4>02 | WordPress Developer</h4></div>
   <div class="toggle-details">
-    <p>As a WordPress developer, part of my workflow after conceptualising ui/ux design and frontend implementation, I use the native platform of WordPress template files and extras like plugins, custom fields, and widgets to further customise the website functionalities.</p>
+    <p>As a WordPress developer, part of my workflow after conceptualising ui/ux design and frontend implementation, I use the native platform of WordPress template files and extras like plugins, custom fields, and widgets to further customise the website fuctionalities.</p>
     <p>Below are the themes and plugins which I frequently use, to name a few.</p>
     <ul>
         <li>Learndash Learning Management System</li>
@@ -93,6 +97,7 @@
 <div class="toggle-title"><h4>04 | Productivity Tools</h4></div>
   <div class="toggle-details">
       <ul>
+        <li>XAMPP, ServerPress, Visual Studio Code, Sublime</li>
         <li>Clickfunnels, Squarespace</li>
         <li>Podio, Trello, Teamwork, Monday</li>
         <li>Zoom, Skype, Slack</li>
@@ -100,34 +105,86 @@
         <li>Dropbox, Google Drive, OneDrive</li>
         <li>Lastpass</li>
         <li>MacOs, Windows10</li>
-	<li>ServerPress, Visual Studio Code, Sublime</li>      
       </ul>
   </div>
 <hr>
+  </div>
+  <div class="w3-half">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/learndash.png" alt="Los Angeles" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="img/buddyboss.png" alt="Chicago" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="img/buddyboss2.png" alt="New york" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="img/elementor.png" alt="New york" style="width:100%;">
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
 </div>
-<div class="w3-half">
-  <img src="img/vscode.png" width="105%">
-</div>
-</div>
+  <!--<div class="w3-padding-16">
+    <h1 class="w3-xxxlarge abg-c2"><b>Knowledge &amp; Experience.</b></h1>
+    <hr style="width:50px;border:3px solid black" class="w3-round">
+    <ul>
+      <li>Specialize in WordPress, Learndash LMS, Memberium</li>
+      <li>Conceptualize web ui/ux design and frontend implementation</li>
+      <li>Involve in theme development using WordPress platform, html, css, jquery, acf</li>
+      <li>Experience in Elementor, Thrive Architect, Divi, WP Bakery</li>
+      <li>Maintain plugin & theme updates and resolving platform-related issues</li>
+      <li>Experienced with Domain & Hosting Account Management, WHM and cPanel </li>
+      <li>Experience in Clickfunnels and Squarespace management</li>
+      <li>Experience in Shopify setup and management</li>
+      <li>Branding and Identity design</li>
+    </ul>
+  </div>-->
+
   <div class="w3-padding-16">
     <h1 class="w3-xxxlarge abg-c2"><b>Projects.</b></h1>
     <hr style="width:50px;border:3px solid black" class="w3-round">
     <div class="w3-row-padding">
       <div class="w3-half">
-        <p><span class="w3-text-brown">Learning Management System Login Page</span> (<a class="w3-small" target="_blank" href="https://borgeee.github.io/program-main/">demo</a> | <a class="w3-small" target="_blank" href="http://programs.healthyself.co/">live</a>)</p>
-        <p class="w3-small"><b>Project Role:</b> WordPress Developer<br/><b>Objective:</b> Revise the frontend look of a health & wellness online learning website.</p>
-        <p class="w3-small"><strong>Tools & Technology Used:</strong> HTML, CSS, Javascript/JQuery, Wordpress, ACF, Memberium, LearnDash, Elementor, Thrive Architect</p><br>
-	      
-	<p><span class="w3-text-brown">Shopify Sales Page</span> (<a class="w3-small" target="_blank" href="https://borgeee.github.io/colon-presell/">demo</a> | <a class="w3-small" target="_blank" href="https://healthyselfstore.com/collections/no-1-thing-you-can-do-for-your-health">live</a>)</p>
+        <p><span class="w3-text-brown">Shopify Sales Page</span> (<a class="w3-small" target="_blank" href="https://borgeee.github.io/colon-presell/">demo</a> | <a class="w3-small" target="_blank" href="https://healthyselfstore.com/collections/no-1-thing-you-can-do-for-your-health">live</a>)</p>
         <p class="w3-small"><b>Project Role:</b> Frontend Developer<br/><b>Objective:</b> Ongoing Project - Build a presell page in Shopify.</p>
-        <p class="w3-small"><strong>Tools & Techonology Used:</strong> Shopify, HTML, CSS, Javascript</p><br>
+        <p class="w3-small"><strong>Tools & Techonology Used:</strong> Shopify, HTML, CSS, Javascript</p><br><br>
+
+        <p><span class="w3-text-brown"> Heal Thy Self Co Ltd.</span> (<a class="w3-small" target="_blank" href="https://www.healthyself.co/">visit website</a>)
+        <p class="w3-small"><strong>Project Role:</strong> WordPress Developer<br/><b>Objective:</b> Frontend implementation and website management.</p>
+        <p class="w3-small"><strong>Tools & Technology Used:</strong> HTML, CSS, WordPress, Elementor, JQuery, Thrive Architect</p><br>
       </div>
 
       <div class="w3-half">
-	<p><span class="w3-text-brown">Health &amp; Life Coach Website</span> (<a class="w3-small" target="_blank" href="https://www.healthyself.co/">visit website</a>)
-        <p class="w3-small"><strong>Project Role:</strong> WordPress Developer<br/><b>Objective:</b> Frontend implementation and website management.</p>
-        <p class="w3-small"><strong>Tools & Technology Used:</strong> HTML, CSS, WordPress, Elementor, JQuery, Thrive Architect</p><br><br>   
-        
+        <p><span class="w3-text-brown">Learning Management System Login Page</span> (<a class="w3-small" target="_blank" href="https://borgeee.github.io/program-main/">demo</a> | <a class="w3-small" target="_blank" href="http://programs.healthyself.co/">live</a>)</p>
+        <p class="w3-small"><b>Project Role:</b> WordPress Developer<br/><b>Objective:</b> Revise the frontend look of a health & wellness online learning website.</p>
+        <p class="w3-small"><strong>Tools & Technology Used:</strong> HTML, CSS, Javascript/JQuery, Wordpress, ACF, Memberium, LearnDash LMS, Elementor, Thrive Architect</p><br>
+
         <p><span class="w3-text-brown">Mags &amp; Wheels Autoshop Shopify Store</span> (<a class="w3-small" target="_blank" href="https://magsandwheels.myshopify.com/">visit website</a>)
         <p class="w3-small"><b>Project Role:</b> Setup Shopify Store<br/><b>Objective:</b> Setup an online store including payment gateway.</p>
         <p class="w3-small"><strong>Tools & Technology Used:</strong> Shopify, HTML, CSS, Javascript/JQuery</p><br> 
@@ -142,14 +199,56 @@
       <a href="https://www.instagram.com/borgeeee/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
-	  
+
+  <!--Tools Summary
+  <div class="w3-padding-16">
+    <h1 class="w3-xxxlarge abg-c2"><b>Tools & Resources.</b></h1>
+    <hr style="width:50px;border:3px solid black" class="w3-round">
+
+    <div class="w3-row-padding">
+      <div class="w3-half tools">
+        <p class="w3-text-brown">Web Development</p>
+        <ul>
+          <li>Responsive Web Design: HTML5, CSS3, Bootstrap, Flexbox, w3.css, Materialize Framework, Javascript/jQuery</li>
+          <li>WordPress, ACF, LearnDash, Memberium, Yoast</li>
+          <li>Elementor, Thrive Architect, Divi, WP Bakery, Astra, Ignition</li>
+          <li>Shopify, WooCommerce</li>
+          <li>Domain & Web Hosting, cPanel, WHM, FTP</li>
+          <li>Desktop Server, MAMP, WAMPP, XAMPP, VSCode, Sublime, Atom, GithuB</li>
+          <li>Google Developer Tools, MDN Web Docs</li>
+        </ul>
+      </div>
+
+      <div class="w3-half tools">
+        <p class="w3-text-brown">Productivity Tools</p>
+        <ul>
+          <li>Podio, Trello, Teamwork, Monday</li>
+          <li>Zoom, Skype, Slack</li>
+          <li>Google Suite, Microsoft Office</li>
+          <li>Dropbox, OneDrive</li>
+          <li>Lastpass</li>
+          <li>MacOs, Windows10</li>
+        </ul>
+      </div>
+    </div>
+    
+     <div class="w3-row-padding tools">
+      <div class="w3-half">
+        <p class="w3-text-brown">Graphic Design</p>
+        <ul>
+          <li>Adobe Photoshop</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe InDesign</li>
+        </ul>
+      </div>-->
+  </div>
   </div>
 </div>
 
 
 <script>
 	$(".toggle-title").click(function () {
-		$(this).next(".toggle-details").toggle("fast");
+		$(this).next(".toggle-details").toggle("fold");
 });
   
   </script>
