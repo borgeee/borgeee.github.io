@@ -7,44 +7,6 @@
     --hover-color: #1eb8ac;
   }
 
-.abg-mobile-contact a{
-	color: #fff;
-	margin-left: 130px;
-	border: 1px solid #fff;
-	padding: 0px 10px;
-}
-
-ul, li {
-    padding: 0px;
-    margin: 0px;
-}
-.toggle-title{
-    cursor:context-menu;
-    color: #333;
-}
-hr {
-    padding: 0px;
-    margin: 12px 0px;
-}
-.toggle-title h4:after{
-    font-family: var(--primary-font);
-    content: "read more";
-    font-size: 13px;
-    position: absolute;
-    width: 45%;
-    right: 0;
-    padding-top: 6px;
-}
-
-.toggle-details {
-    display:none;
-}
-
-.toggle-details ul, .tools ul{
-    list-style-position: inside;
-    margin: 10px 0px 10px 15px;
-}
-
 .center{
     text-align: center;
 }
@@ -66,6 +28,76 @@ h2,h3 {
 
 p{
     line-height: 2em;
+}
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+.portfolio-sidebar{
+    z-index:3;
+    width:300px;
+    font-weight:bold;
+}
+
+.portfolio-content{
+    margin-left:320px;
+    margin-right:40px
+}
+
+.knowledge-summary{
+    margin-top: 50px;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+
+.toggle-title{
+    cursor:context-menu;
+    color: #333;
+}
+
+.toggle-title h4:after{
+    font-family: var(--primary-font);
+    content: "read more";
+    font-size: 13px;
+    position: absolute;
+    width: 47%;
+    right: 0;
+    padding-top: 6px;
+}
+
+.toggle-details {
+    display:none;
+}
+
+.toggle-details ul, .tools ul{
+    list-style-position: inside;
+    margin: 10px 0px 10px 15px;
+}
+
+hr {
+    padding: 0px;
+    margin: 12px 0px;
+}
+
+.carousel-control {
+    width: 3%;
+    opacity: .3;
+    transition: all .3s;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel-indicators .active {
+    background-color: var(--primary-color);
+}
+.carousel-control.left,.carousel-control.right{
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
+    /* background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001))); */
+    /* background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%); */
 }
 
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
@@ -127,8 +159,8 @@ p{
 }
 
 
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:1;cursor:pointer}
+/*.w3-half img:hover{opacity:1}*/
 
 /*Filter Button*/
 .group-1, .group-2, .group-3 {
