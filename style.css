@@ -34,16 +34,51 @@ ul, li {
     padding: 0px;
     margin: 0px;
 }
+
 .portfolio-sidebar{
     z-index:3;
     width:300px;
     font-weight:bold;
 }
 
-.portfolio-content{
-    margin-left:320px;
-    margin-right:40px
+.about h3{
+    padding: 32px 32px 0px 0px;
 }
+.about a{
+    margin-right: 25px;
+}
+
+.abg-text-white {
+    color: #fff;
+}
+
+a {
+	text-decoration: none;
+    color:var(--primary-color);
+}
+
+p{
+    padding:  0;
+    margin: 0;
+}
+
+.abg-c1 {
+    background-color:var(--primary-color);
+}
+
+.abg-green-text {
+    color: #80b500;
+}
+
+.abg-c2 {
+    color:var(--secondary-color);
+}
+
+.portfolio-content{
+    margin-left:300px;
+}
+
+.work{padding: 25px;}
 
 .knowledge-summary{
     margin-top: 50px;
@@ -104,41 +139,8 @@ hr {
 
 .w3-half img:hover{opacity:1}
 
-.about h3{
-    padding: 32px 32px 0px 0px;
-}
-.about a{
-    margin-right: 25px;
-}
-
-.abg-text-white {
-    color: #fff;
-}
-
-a {
-	text-decoration: none;
-    color:var(--primary-color);
-}
-
-p{
-    padding:  0;
-    margin: 0;
-}
-
-.abg-c1 {
-    background-color:var(--primary-color);
-}
-
-.abg-green-text {
-    color: #80b500;
-}
-
-.abg-c2 {
-    color:var(--secondary-color);
-}
-
-#showcase, #services, #designers {
-    height: 100vh;
+#showcase {
+    height: 80vh;
 }
 
 #showcase h1{
@@ -175,21 +177,37 @@ p{
     margin-bottom: 20px;
 }
 
+
+.project-1{
+    background-color: #333;
+    height: 80vh;
+    margin: 0px;
+}
+
+.project-2{
+    background-color: #ff0000;
+    height: 80vh;
+}
+
+
 /*Screen Sizes 500px and up*/
 @media (max-width: 500px){
-    #filter {
-        display: none;
+    .abg-contact-mobile .mail{
+        color: #fff;
+        margin-left: 120px;
+        border: 1px solid #fff;
+        padding: 0px 10px;
+    }px
+    .w3-container, .w3-panel {
+        padding: 0px;
     }
-    .myphoto {
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-    .w3-card{
-        margin-bottom: 10px;
-    }
-    .abg-margin-sh{
+    .work{
         margin-top: 50px;
+        padding: 15px;
+        width: 93%;
+    }
+    .knowledge-summary {
+        margin-top: 10px;
     }
     .toggle-title h4:after{
         width: 25%;
@@ -208,8 +226,5 @@ p{
     }
     .w3-card{
         margin-bottom: 10px;
-    }
-    .abg-margin-sh{
-        margin-top: 50px;
     }
 }
