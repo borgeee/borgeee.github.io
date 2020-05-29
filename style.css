@@ -225,9 +225,14 @@ img.htsco{width:640px;}
         margin-left: 160px;
         border: 1px solid #fff;
         padding: 0px 10px;
-    }px
+	text-decoration:none;
+    }
     .w3-container, .w3-panel {
         padding: 0px;
+    }
+     .contactme{
+	color: #fff;
+	text-decoration:none;
     }
     .content-wrapper{
         padding: 15px;
