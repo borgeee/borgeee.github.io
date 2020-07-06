@@ -80,7 +80,7 @@ p{
     margin-left:300px;
 }
 
-.content-wrapper{padding: 25px;height:90vh;}
+.content-wrapper{padding: 25px;min-height:90vh;}
 .content-wrapper h2{margin-top:7%;}
 .skills {margin-top: 20px;}
 .knowledge-summary{
