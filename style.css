@@ -90,8 +90,9 @@ p{
 }
 
 .toggle-title{
-    cursor:context-menu;
+    /*cursor:context-menu;*/
     color: #333;
+    cursor:pointer;
 }
 
 .toggle-title h4:after{
