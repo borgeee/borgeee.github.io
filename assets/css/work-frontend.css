@@ -249,22 +249,24 @@ img.hts-program {width:390px;}
 
 /*Screen Sizes 500px and up*/
 @media (max-width: 500px){
-    .project-1, .project-2, .project-3 {height: auto;}
-    .project-1 li, .project-2 li{margin: 5px;}
+    .project-1, .project-2, .project-3 {height: auto;padding: 25px;}
+    .project-1 li, .project-2 li, .project-3 li{margin: 0px;padding-left: 0;}
     img.hts-program, img.htsco,img.tyler {display: none;}
     .proj-col-1{width: 100%;}
+    .abg-contact-mobile{background-color: #f7f7f7;}
     .abg-contact-mobile .mail{
-        color: #fff;
-        margin-left: 160px;
-        border: 1px solid #fff;
+        color: #000;
+        border: 1px solid #000;
         padding: 0px 10px;
-	    text-decoration:none;
+        text-decoration:none;
+        float: right;
     }
     .w3-container, .w3-panel {
         padding: 0px;
     }
+    .contact-footer-col-1, .contact-footer-col-2{ width: 50%; display: inline;}
      .contactme{
-	color: #fff;
+	color: #000;
 	text-decoration:none;
     }
     .content-wrapper{
