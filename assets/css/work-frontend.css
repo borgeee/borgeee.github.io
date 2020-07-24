@@ -2,7 +2,7 @@
 
 /*Theme Color Customizer*/
 :root {
-    --primary-color: #80b500;
+    --primary-color: #fff;
     --primary-font: 'Jost', sans-serif;
     --secondary-color: #3f2803;
     --text-color: #333;
@@ -58,6 +58,11 @@ ul, li {
     color: #fff;
 }
 
+.abg-text-black {
+    color: #000;
+}
+
+
 a {
 	text-decoration: none;
     color:var(--primary-color);
@@ -84,7 +89,7 @@ p{
     margin-left:300px;
 }
 
-.content-wrapper{padding: 25px;min-height:90vh;}
+.content-wrapper{padding: 22px;min-height:90vh;}
 .content-wrapper h2{margin-top:6%;}
 .skills {margin-top: 6%;}
 .knowledge-summary{
@@ -178,48 +183,69 @@ hr {
     margin-bottom: 20px;
 }
 
-
-.project-1{
-    background:url(../img/Photo-by-Josefin-on-Unsplash.jpg) no-repeat center;
-    background-size: cover;
-    color: #fff;
-    height: 100vh;
-    margin: 15px 0px 0px 0px;
-    padding: 70px;
-    overflow: hidden;
-}
 .proj-col-1 {
-    width:40%;
+    width:50%;
 }
 
 .proj-col-2 {
-    width: 60%;
+    width: 50%;
     text-align: right;
 }
 
-img.hts-program {width:390px;}
+.desc {margin: 30px 0;}
 
-
-.project-1 li, .project-2 li{
+.project-1 li, .project-2 li, .project-3 li{
     list-style: none;
-    display: inline-block;
-    border: 1px solid #fff;
-    border-radius: 25px;
+    /*display: inline-block;*/
+    border-bottom: 1px solid #252525;
+    /*border-radius: 25px;*/
     padding: 3px 12px;
-    margin-top: 15px;
+    margin: 10px 0;
 }
+
+.project-1 li:last-child,
+.project-2 li:last-child,
+.project-3 li:last-child {
+    border-bottom: 0px;
+}
+
 .view, .view a {background-color:var(--view-button);color: var(--view-text); text-decoration: none;}
 
 
-.project-2{
-    background:url(../img/Photo-by-Brooke-Lark-on-Unsplash.jpg) no-repeat center left;
-    height: 100vh;
+.project-1{
+    /*background:url(../img/Photo-by-Brooke-Lark-on-Unsplash.jpg) no-repeat center left;*/
+    background-color: #B3B8F3;
+    height: 80vh;
     color:#000;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
     padding: 70px;
     overflow: hidden;
 }
-img.htsco{width:640px;}
+
+.project-2{
+    /*background:url(../img/Photo-by-Josefin-on-Unsplash.jpg) no-repeat center;*/
+    /*background-size: cover;*/
+    background-color: #B3F3EE;
+    color: #000;
+    height: 80vh;
+    margin: 15px 0px 30px 0px;
+    padding: 70px;
+    overflow: hidden;
+}
+
+.project-3{
+    /*background:url(../img/Photo-by-Josefin-on-Unsplash.jpg) no-repeat center;*/
+    /*background-size: cover;*/
+    background-color: #cfc8ac;
+    color: #000;
+    height: 80vh;
+    margin: 15px 0px 30px 0px;
+    padding: 70px;
+    overflow: hidden;
+}
+
+img.htsco,img.tyler{width:580px;margin-top: 20px;}
+img.hts-program {width:390px;}
 
 /*Screen Sizes 500px and up*/
 @media (max-width: 500px){
