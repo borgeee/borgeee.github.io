@@ -251,8 +251,10 @@ img.hts-program {width:390px;}
 @media (max-width: 500px){
     .project-1, .project-2, .project-3 {height: auto;padding: 25px;}
     .project-1 li, .project-2 li, .project-3 li{margin: 0px;padding-left: 0;}
-    img.hts-program, img.htsco,img.tyler {display: none;}
+     img.htsco,img.tyler {width: 300px; text-align: center;}
+     img.hts-program{width: 180px; text-align: center;}
     .proj-col-1{width: 100%;}
+    .proj-col-2{width: 100%; text-align: center;}
     .abg-contact-mobile{background-color: #f7f7f7;}
     .abg-contact-mobile .mail{
         color: #000;
