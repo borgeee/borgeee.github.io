@@ -160,8 +160,6 @@ img.hts-program {width:390px;}
 @media (max-width: 500px){
     
     header{height: 87vh;
-        background: rgb(18,194,255);
-        background: linear-gradient(286deg, rgba(18,194,255,1) 0%, rgba(9,237,238,1) 100%);
         margin: 16px;
         padding: 30px;
     }
