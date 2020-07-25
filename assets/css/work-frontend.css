@@ -91,97 +91,6 @@ p{
 
 .content-wrapper{padding: 22px;min-height:90vh;}
 .content-wrapper h2{margin-top:6%;}
-.skills {margin-top: 6%;}
-.knowledge-summary{
-    margin-top: 50px;
-    padding-right: 25px;
-    vertical-align: middle;
-}
-
-.toggle-title{
-    /*cursor:context-menu;*/
-    color: #333;
-    cursor:pointer;
-}
-
-.toggle-title h4:after{
-    font-family: var(--primary-font);
-    content: "read more";
-    font-size: 13px;
-    position: absolute;
-    width: 47%;
-    right: 0;
-    padding-top: 6px;
-}
-
-.toggle-details {
-    display:none;
-}
-
-.toggle-details ul, .tools ul{
-    list-style-position: inside;
-    margin: 10px 0px 10px 15px;
-}
-
-hr {
-    padding: 0px;
-    margin: 12px 0px;
-}
-
-.carousel-control {
-    width: 3%;
-    opacity: .3;
-    transition: all .3s;
-}
-
-.carousel-indicators {
-    bottom: 0px;
-}
-
-.carousel-indicators .active {
-    background-color: var(--primary-color);
-}
-.carousel-control.left,.carousel-control.right{
-    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
-    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
-    /* background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001))); */
-    /* background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%); */
-}
-
-#showcase {
-    height: 80vh;
-}
-
-#showcase h1{
-    margin-top: 35px;
-}
-
-/*Image Size*/
-.webimg {
-	width: 80%;
-}
-.bookimg {
-	height: 630px;
-}
-
-.myphoto {
-    float: left;
-    margin-right: 20px;
-}
-
-
-/*Filter Button*/
-.group-1, .group-2, .group-3 {
-  padding: 1em;
-  margin-bottom: 0;
-}
-
-
-.socialmedia{
-    font-size: 2em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .proj-col-1 {
     width:50%;
@@ -249,6 +158,15 @@ img.hts-program {width:390px;}
 
 /*Screen Sizes 500px and up*/
 @media (max-width: 500px){
+    
+    header{height: 87vh;
+        background: rgb(18,194,255);
+        background: linear-gradient(286deg, rgba(18,194,255,1) 0%, rgba(9,237,238,1) 100%);
+        margin: 16px;
+        padding: 30px;
+    }
+    header h2 {font-size: 2.5rem;text-align: left;}
+    .w3-large-mobile{font-size: 1.5rem !important; line-height: 1.2;margin:30px 0 30px 0;text-align: left;}
     .project-1, .project-2, .project-3 {height: auto;padding: 25px;}
     .project-1 li, .project-2 li, .project-3 li{margin: 0px;padding-left: 0;}
      img.htsco,img.tyler {width: 300px; text-align: center;}
