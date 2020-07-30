@@ -4,15 +4,19 @@
 :root {
     --primary-color: #fff;
     --primary-font: 'Jost', sans-serif;
-    --secondary-color: #3f2803;
+    --secondary-color: #1eb8ac;
     --text-color: #333;
     --hover-color: #1eb8ac;
-    --view-button: #fff;
+    --view-button: rgb(14, 12, 12);
     --view-text: #3f2803;
   }
 
 .center{
     text-align: center;
+}
+
+.right{
+    text-align: right;
 }
 
 body { 
@@ -65,7 +69,7 @@ ul, li {
 
 a {
 	text-decoration: none;
-    color:var(--primary-color);
+    color:var(--secondary-color);
 }
 
 p{
@@ -98,7 +102,6 @@ p{
 
 .proj-col-2 {
     width: 50%;
-    text-align: right;
 }
 
 .desc {margin: 30px 0;}
@@ -111,6 +114,7 @@ p{
     padding: 3px 12px;
     margin: 10px 0;
 }
+
 
 .project-1 li:last-child,
 .project-2 li:last-child,
@@ -153,6 +157,26 @@ p{
     overflow: hidden;
 }
 
+.project-4{
+    background-color: #4161a1;
+    color: #fff;
+    height: 80vh;
+    margin: 15px 0px 30px 0px;
+    padding: 70px;
+    overflow: hidden;
+
+}
+
+.text-cols {
+    column-count: 2;
+    column-gap: 4.8rem;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.project-4 a {color: #fff; text-decoration: none;}
+.project-4 a:hover{color: #fbb531;}
+
 img.htsco,img.tyler{width:580px;margin-top: 20px;}
 img.hts-program {width:390px;}
 
@@ -165,12 +189,13 @@ img.hts-program {width:390px;}
     }
     header h2 {font-size: 2.5rem;text-align: left;}
     .w3-large-mobile{font-size: 1.5rem !important; line-height: 1.2;margin:30px 0 30px 0;text-align: left;}
-    .project-1, .project-2, .project-3 {height: auto;padding: 25px;}
+    .project-1, .project-2, .project-3, .project-4 {height: auto;padding: 25px;}
     .project-1 li, .project-2 li, .project-3 li{margin: 0px;padding-left: 0;}
      img.htsco,img.tyler {width: 300px; text-align: center;}
      img.hts-program{width: 180px; text-align: center;}
     .proj-col-1{width: 100%;}
     .proj-col-2{width: 100%; text-align: center;}
+    .text-cols {column-count: 1;}
     .abg-contact-mobile{background-color: #f7f7f7;}
     .abg-contact-mobile .mail{
         color: #000;
