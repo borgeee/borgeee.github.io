@@ -4538,6 +4538,11 @@ a.to-the-top > * {
 		display: none;
 	}
 
+	.elementor-section.elementor-section-items-middle>.elementor-container {
+		align-items: flex-start !important;
+		margin-top: 5%;
+	}
+
 	.header-inner {padding:0;}
 	
 	/* Entry Content ------------------------- */
