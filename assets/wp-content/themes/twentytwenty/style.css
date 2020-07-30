@@ -4534,6 +4534,12 @@ a.to-the-top > * {
 		float: none;
 	}
 
+	#site-header {
+		position: inherit !important;
+	}
+
+	.header-inner {padding:0;}
+	
 	/* Entry Content ------------------------- */
 
 	/* LISTS */
