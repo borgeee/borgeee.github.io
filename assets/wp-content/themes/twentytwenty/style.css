@@ -4535,7 +4535,7 @@ a.to-the-top > * {
 	}
 
 	#site-header {
-		position: inherit !important;
+		display: none;
 	}
 
 	.header-inner {padding:0;}
