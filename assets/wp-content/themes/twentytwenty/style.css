@@ -983,6 +983,8 @@ th {
 
 /* Sections ---------------------------------- */
 
+.mobile-nav-bar {display: none;}
+
 section {
 	padding: 5rem 0;
 	width: 100%;
