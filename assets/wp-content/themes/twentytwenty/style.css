@@ -4544,6 +4544,22 @@ a.to-the-top > * {
 	}
 
 	.header-inner {padding:0;}
+
+	.mobile-nav-bar {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		z-index: 5;
+		background-color: #f7f7f7;
+		display: flex;
+		padding:5%;
+	}
+
+	.mobile-nav-bar a{color: #000; text-decoration: none;}
+	.mobile-nav-bar a.mail {background-color: #000; color: #fff; padding: 5% 15%;}
+	.contact-footer-col-1,
+	.contact-footer-col-2 {width:50%;}
+	.contact-footer-col-2 {text-align: right;}
 	
 	/* Entry Content ------------------------- */
 
