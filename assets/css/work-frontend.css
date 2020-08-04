@@ -4,8 +4,9 @@
 :root {
     --primary-color: #fff;
     --primary-font: 'Jost', sans-serif;
-    --secondary-color: #1eb8ac;
-    --text-color: #333;
+    --secondary-color: #B3F3EE;
+    --text-color: #000;
+    --text-link: #333;
     --hover-color: #1eb8ac;
     --view-button: rgb(14, 12, 12);
     --view-text: #3f2803;
@@ -30,7 +31,6 @@ body, h1, h2, h3, h4, h5, p, a{
     padding: 0px;
 }
 
-a:hover {color: #333;text-decoration: none;transition: all .3s ease-in-out;}
 
 h2,h3 {
     font-weight: 400;
@@ -51,12 +51,12 @@ ul, li {
     font-weight:bold;
 }
 
-.about h3{
+/*.about h3{
     padding: 32px 32px 0px 0px;
 }
 .about a{
     margin-right: 25px;
-}
+}*/
 
 .abg-text-white {
     color: #fff;
@@ -69,13 +69,58 @@ ul, li {
 
 a {
 	text-decoration: none;
-    color:var(--secondary-color);
+    color:var(--text-link);
 }
+
+a:hover {color: #333;text-decoration: none;transition: all .3s ease-in-out;}
+
+.work-with-me h3 {margin: 15px 0;}
+.button {
+    border-radius: 4px;
+    background-color:var(--secondary-color);
+    border: 1px solid #fff;
+    color:#000;
+    text-align: center;
+    padding: 8px 30px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 p{
     padding:  0;
     margin: 0;
 }
+
+.social {margin: 15px 0 0 0;}
 
 .abg-c1 {
     background-color:var(--primary-color);
